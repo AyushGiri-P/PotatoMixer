@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>HornSentFinder</h1>
+        <p>Welcome! Find all the HornSents, one at a time.</p>
+    </header>
+    <form>
+    <label for="searchInput">Search for images</label>
+
+    <input
+        type="search"
+        id="searchInput"
+        placeholder="Try mountains, caves, plains..."
+    >
+
+    <button type="submit" id="searchButton">
+        Search
+    </button>
+</form>
+<section>
+    <h2>Quick picks</h2>
+
+    <div>
+        <button type="button">Rauh</button>
+        <button type="button">Finger Ruins</button>
+        <button type="button">Shadow Keep</button>
+    </div>
+</section>
+<p id="emptyState">
+    Search to discover images.
+</p>
+<div id="results"></div>
+</body>
+</html>
